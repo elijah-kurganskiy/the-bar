@@ -1,4 +1,4 @@
-.cocktail-detail-page {
+.dialog {
   position: fixed;
   border-top-left-radius: 2em;
   border-top-right-radius: 2em;
@@ -10,6 +10,10 @@
   border: 0;
   padding: 0;
   background: var(--color-faint-strong);
+}
+
+.cocktail-detail-page {
+  padding-bottom: 1rem;
 
   .cocktail-detail-page_navigation {
     margin-top: 2em;

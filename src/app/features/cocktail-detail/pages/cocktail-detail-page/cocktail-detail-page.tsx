@@ -19,22 +19,19 @@ function CocktailDetailPage() {
     return null;
   }
   return (
-    <dialog
-      role="dialog"
-      open
-      aria-modal={true}
-      className="cocktail-detail-page fancy"
-    >
-      <HeaderWithNavigationComponent
-        className="cocktail-detail-page_navigation"
-        onClose={navigateBack}
-        title={cocktail.name}
-      />
-      <PreviewComponent
-        className="cocktail-detail-page_preview"
-        type={cocktail.id}
-      />
-      <IngredientListComponent ingredients={cocktail.ingredients} />
+    <dialog role="dialog" open aria-modal={true} className="dialog fancy">
+      <div className="cocktail-detail-page">
+        <HeaderWithNavigationComponent
+          className="cocktail-detail-page_navigation"
+          onClose={navigateBack}
+          title={cocktail.name}
+        />
+        <PreviewComponent
+          className="cocktail-detail-page_preview"
+          type={cocktail.id}
+        />
+        <IngredientListComponent ingredients={cocktail.ingredients} />
+      </div>
     </dialog>
   );
 }
