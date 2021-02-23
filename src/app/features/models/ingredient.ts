@@ -25,6 +25,7 @@ export enum IngredientEnum {
   TONIC,
   MILK,
   CREAM,
+  ICE,
 }
 
 export interface Ingredient {
