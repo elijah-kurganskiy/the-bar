@@ -1,0 +1,12 @@
+.cocktail-detail-page {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: var(--color-faint-strong);
+
+  .cocktail-detail-page_preview {
+    height: 30em;
+  }
+}

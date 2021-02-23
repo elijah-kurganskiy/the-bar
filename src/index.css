@@ -67,6 +67,18 @@ code {
   --color-compliment-strong: #30804d;
 }
 
+.line {
+  --color-base-strong: #0e131a;
+  --color-base-weak: rgba(255, 255, 255, 0.1);
+
+  --color-faint-strong: #262a34;
+  --color-faint-weak: #b7b7b7;
+
+  --color-accent-strong: #0094c3;
+
+  --color-compliment-strong: #30804d;
+}
+
 .fancy {
   --color-base-strong: #0e131a;
   --color-base-weak: #e0e0e0;

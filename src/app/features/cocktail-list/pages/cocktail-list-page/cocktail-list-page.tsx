@@ -1,62 +1,19 @@
-import React from "react";
-import { Cocktail } from "../../../models/cocktail";
+import React, { useCallback } from "react";
+import { useHistory } from "react-router-dom";
+import { cocktails } from "../../../../store/cocktails";
 import { CocktailListComponent } from "../../components/cocktail-list/cocktail-list";
 import "./cocktail-list-page.scss";
 
-const cocktails: Cocktail[] = [
-  {
-    name: "Виски Сауэр",
-    timeToMake: 3,
-    ingredients: [],
-    withAlcohol: true,
-  },
-  {
-    name: "Гимлет",
-    timeToMake: 3,
-    ingredients: [],
-    withAlcohol: true,
-  },
-  {
-    name: "Дайкири",
-    timeToMake: 3,
-    ingredients: [],
-    withAlcohol: true,
-  },
-  {
-    name: "Джин-Тоник",
-    timeToMake: 3,
-    ingredients: [],
-    withAlcohol: true,
-  },
-  {
-    name: "Куба-Либре",
-    timeToMake: 3,
-    ingredients: [],
-    withAlcohol: true,
-  },
-  {
-    name: "Мохито",
-    timeToMake: 3,
-    ingredients: [],
-    withAlcohol: true,
-  },
-  {
-    name: "Мохито",
-    timeToMake: 3,
-    ingredients: [],
-    withAlcohol: false,
-  },
-  {
-    name: "Пина Колада",
-    timeToMake: 3,
-    ingredients: [],
-    withAlcohol: false,
-  },
-];
-
 function CocktailListPage() {
+  const history = useHistory();
+
+  const onSelectCocktail = useCallback((id) => {
+    history.push(`/cocktails/${id}`);
+  }, []);
+
   return (
     <CocktailListComponent
+      onClick={onSelectCocktail}
       cocktails={cocktails}
       className="cocktail-list-page"
     />

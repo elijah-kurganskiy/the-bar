@@ -1,0 +1,124 @@
+<svg width="216" height="216" viewBox="0 0 216 216" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0)">
+<path d="M52.93 32.9243C52.3877 28.1846 55.2332 23.7111 59.7558 22.1931V22.1931C91.0604 11.6857 124.94 11.6857 156.244 22.1931V22.1931C160.767 23.7111 163.612 28.1846 163.07 32.9243L144.779 192.794C144.309 196.897 141.366 200.29 137.37 201.333L133.259 202.406C116.697 206.729 99.3027 206.729 82.7406 202.406L78.6303 201.333C74.6342 200.29 71.6905 196.897 71.2211 192.794L52.93 32.9243Z" stroke="white" stroke-width="2"/>
+<path d="M66.5 151V151C77.6044 193.812 138.396 193.812 149.5 151V151" stroke="white" stroke-width="2"/>
+<path d="M163 33C163 44.8741 138.376 49 108 49C77.6243 49 53 44.8741 53 33" stroke="white" stroke-width="2"/>
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="62" y="52" width="92" height="123">
+<path d="M62 52C92.3127 58.5897 123.687 58.5897 154 52L142.984 146.557C142.342 152.062 140.084 157.254 136.495 161.477C121.561 179.046 94.4393 179.046 79.5051 161.477C75.9156 157.254 73.6577 152.062 73.0163 146.557L62 52Z" fill="#C4C4C4"/>
+</mask>
+<g mask="url(#mask0)">
+<mask id="mask1" mask-type="alpha" maskUnits="userSpaceOnUse" x="54" y="35" width="108" height="85">
+<path d="M54 120H162V35H54V120Z" fill="#FFF1BE"/>
+</mask>
+<g mask="url(#mask1)">
+<path d="M54 120H162V35H54V120Z" fill="#FFF1BE"/>
+<circle cx="78" cy="48" r="4" stroke="white" stroke-width="2"/>
+<circle cx="127" cy="48" r="4" stroke="white" stroke-width="2"/>
+<circle cx="101" cy="67" r="4" stroke="white" stroke-width="2"/>
+<circle cx="76" cy="79" r="4" stroke="white" stroke-width="2"/>
+<circle cx="125" cy="81" r="4" stroke="white" stroke-width="2"/>
+<circle cx="151" cy="59" r="4" stroke="white" stroke-width="2"/>
+<circle cx="150" cy="92" r="4" stroke="white" stroke-width="2"/>
+<circle cx="80" cy="64" r="4" stroke="white" stroke-width="2"/>
+<circle cx="105" cy="51" r="4" stroke="white" stroke-width="2"/>
+<circle cx="129" cy="64" r="4" stroke="white" stroke-width="2"/>
+<circle cx="103" cy="83" r="4" stroke="white" stroke-width="2"/>
+<circle cx="78" cy="95" r="4" stroke="white" stroke-width="2"/>
+<circle cx="127" cy="97" r="4" stroke="white" stroke-width="2"/>
+<circle cx="153" cy="75" r="4" stroke="white" stroke-width="2"/>
+<circle cx="152" cy="108" r="4" stroke="white" stroke-width="2"/>
+<circle cx="77" cy="70" r="3" stroke="white" stroke-width="2"/>
+<circle cx="102" cy="57" r="3" stroke="white" stroke-width="2"/>
+<circle cx="126" cy="70" r="3" stroke="white" stroke-width="2"/>
+<circle cx="100" cy="89" r="3" stroke="white" stroke-width="2"/>
+<circle cx="75" cy="101" r="3" stroke="white" stroke-width="2"/>
+<circle cx="124" cy="103" r="3" stroke="white" stroke-width="2"/>
+<circle cx="150" cy="81" r="3" stroke="white" stroke-width="2"/>
+<circle cx="149" cy="114" r="3" stroke="white" stroke-width="2"/>
+<circle cx="61" cy="60" r="6" stroke="white" stroke-width="2"/>
+<circle cx="85" cy="73" r="6" stroke="white" stroke-width="2"/>
+<circle cx="110" cy="60" r="6" stroke="white" stroke-width="2"/>
+<circle cx="134" cy="73" r="6" stroke="white" stroke-width="2"/>
+<circle cx="108" cy="92" r="6" stroke="white" stroke-width="2"/>
+<circle cx="56" cy="93" r="6" stroke="white" stroke-width="2"/>
+<circle cx="83" cy="104" r="6" stroke="white" stroke-width="2"/>
+<circle cx="132" cy="106" r="6" stroke="white" stroke-width="2"/>
+<circle cx="158" cy="84" r="6" stroke="white" stroke-width="2"/>
+<circle cx="157" cy="117" r="6" stroke="white" stroke-width="2"/>
+<circle cx="107" cy="113" r="6" stroke="white" stroke-width="2"/>
+<circle cx="80.5" cy="55.5" r="6.5" stroke="white" stroke-width="2"/>
+<circle cx="129.5" cy="55.5" r="6.5" stroke="white" stroke-width="2"/>
+<circle cx="103.5" cy="74.5" r="6.5" stroke="white" stroke-width="2"/>
+<circle cx="78.5" cy="86.5" r="6.5" stroke="white" stroke-width="2"/>
+<circle cx="127.5" cy="88.5" r="6.5" stroke="white" stroke-width="2"/>
+<circle cx="153.5" cy="66.5" r="6.5" stroke="white" stroke-width="2"/>
+<circle cx="152.5" cy="99.5" r="6.5" stroke="white" stroke-width="2"/>
+<circle cx="87.5" cy="50.5" r="3.5" stroke="white" stroke-width="2"/>
+<circle cx="136.5" cy="50.5" r="3.5" stroke="white" stroke-width="2"/>
+<circle cx="110.5" cy="69.5" r="3.5" stroke="white" stroke-width="2"/>
+<circle cx="58.5" cy="70.5" r="3.5" stroke="white" stroke-width="2"/>
+<circle cx="85.5" cy="81.5" r="3.5" stroke="white" stroke-width="2"/>
+<circle cx="134.5" cy="83.5" r="3.5" stroke="white" stroke-width="2"/>
+<circle cx="70.5" cy="48.5" r="3.5" stroke="white" stroke-width="2"/>
+<circle cx="94.5" cy="61.5" r="3.5" stroke="white" stroke-width="2"/>
+<circle cx="119.5" cy="48.5" r="3.5" stroke="white" stroke-width="2"/>
+<circle cx="143.5" cy="61.5" r="3.5" stroke="white" stroke-width="2"/>
+<circle cx="117.5" cy="80.5" r="3.5" stroke="white" stroke-width="2"/>
+<circle cx="65.5" cy="81.5" r="3.5" stroke="white" stroke-width="2"/>
+<circle cx="92.5" cy="92.5" r="3.5" stroke="white" stroke-width="2"/>
+<circle cx="141.5" cy="94.5" r="3.5" stroke="white" stroke-width="2"/>
+<circle cx="111.027" cy="105.546" r="3.5" transform="rotate(-79.5028 111.027 105.546)" stroke="white" stroke-width="2"/>
+<circle cx="88.0702" cy="112.735" r="3.5" transform="rotate(-104.491 88.0702 112.735)" stroke="white" stroke-width="2"/>
+<circle cx="119.5" cy="113.5" r="3.5" stroke="white" stroke-width="2"/>
+<circle cx="65.5" cy="111.5" r="3.5" stroke="white" stroke-width="2"/>
+<circle cx="70.5" cy="57.5" r="3.5" stroke="white" stroke-width="2"/>
+<circle cx="94.5" cy="70.5" r="3.5" stroke="white" stroke-width="2"/>
+<circle cx="119.5" cy="57.5" r="3.5" stroke="white" stroke-width="2"/>
+<circle cx="143.5" cy="70.5" r="3.5" stroke="white" stroke-width="2"/>
+<circle cx="117.5" cy="89.5" r="3.5" stroke="white" stroke-width="2"/>
+<circle cx="65.5" cy="90.5" r="3.5" stroke="white" stroke-width="2"/>
+<circle cx="92.5" cy="101.5" r="3.5" stroke="white" stroke-width="2"/>
+<circle cx="141.5" cy="103.5" r="3.5" stroke="white" stroke-width="2"/>
+<circle cx="119.876" cy="107.186" r="3.5" transform="rotate(-79.5028 119.876 107.186)" stroke="white" stroke-width="2"/>
+<circle cx="96.7838" cy="110.483" r="3.5" transform="rotate(-104.491 96.7838 110.483)" stroke="white" stroke-width="2"/>
+<circle cx="118.5" cy="97.5" r="3.5" stroke="white" stroke-width="2"/>
+<circle cx="63.5" cy="46.5" r="5.5" stroke="white" stroke-width="2"/>
+<circle cx="87.5" cy="59.5" r="5.5" stroke="white" stroke-width="2"/>
+<circle cx="112.5" cy="46.5" r="5.5" stroke="white" stroke-width="2"/>
+<circle cx="136.5" cy="59.5" r="5.5" stroke="white" stroke-width="2"/>
+<circle cx="110.5" cy="78.5" r="5.5" stroke="white" stroke-width="2"/>
+<circle cx="58.5" cy="79.5" r="5.5" stroke="white" stroke-width="2"/>
+<circle cx="85.5" cy="90.5" r="5.5" stroke="white" stroke-width="2"/>
+<circle cx="134.5" cy="92.5" r="5.5" stroke="white" stroke-width="2"/>
+<circle cx="159.5" cy="103.5" r="5.5" stroke="white" stroke-width="2"/>
+<circle cx="96.5" cy="50.5" r="5.5" stroke="white" stroke-width="2"/>
+<circle cx="145.5" cy="50.5" r="5.5" stroke="white" stroke-width="2"/>
+<circle cx="119.5" cy="69.5" r="5.5" stroke="white" stroke-width="2"/>
+<circle cx="67.5" cy="70.5" r="5.5" stroke="white" stroke-width="2"/>
+<circle cx="94.5" cy="81.5" r="5.5" stroke="white" stroke-width="2"/>
+<circle cx="143.5" cy="83.5" r="5.5" stroke="white" stroke-width="2"/>
+<circle cx="100.575" cy="101.575" r="5.5" transform="rotate(-79.5028 100.575 101.575)" stroke="white" stroke-width="2"/>
+<circle cx="76.9197" cy="113.551" r="5.5" transform="rotate(-104.491 76.9197 113.551)" stroke="white" stroke-width="2"/>
+<circle cx="67.5" cy="100.5" r="5.5" stroke="white" stroke-width="2"/>
+</g>
+<path d="M41 155H180V175H41V155Z" fill="#FFF1BE"/>
+<path d="M41 130H180V155H41V130Z" fill="#ECEB53"/>
+<path d="M41 80H180V130H41V80Z" fill="#8A382A"/>
+</g>
+<g clip-path="url(#clip1)">
+<path d="M179.975 66.1778C173.466 71.4528 165.513 58.881 154.038 44.7216C142.563 30.5621 131.911 20.1768 138.421 14.9018C152.67 3.35414 173.523 5.47144 184.998 19.6309C196.473 33.7904 194.224 54.6301 179.975 66.1778Z" fill="#ECEB53"/>
+<path d="M180.711 59.1452C174.202 64.4202 166.249 51.8484 154.774 37.689C143.299 23.5295 132.648 13.1442 139.157 7.8692C153.406 -3.67845 174.26 -1.56115 185.735 12.5983C197.209 26.7578 194.96 47.5975 180.711 59.1452Z" stroke="#F2F2F2" stroke-width="2"/>
+<path d="M169.284 7.37858L159.992 29.5263C159.369 31.0096 160.664 32.5834 162.239 32.259L185.612 27.4471C186.243 27.3173 186.642 26.6922 186.494 26.0653C184.527 17.718 178.914 10.6957 171.206 6.93654L170.881 6.77778C170.275 6.48226 169.545 6.75687 169.284 7.37858Z" stroke="#F2F2F2" stroke-width="2"/>
+<path d="M186.027 31.1253L164.299 36.3196C162.833 36.6698 162.267 38.4529 163.261 39.5847L176.915 55.1283C177.341 55.6139 178.086 55.6492 178.556 55.2063C184.799 49.3315 188.072 40.9638 187.474 32.4128L187.457 32.1749C187.407 31.4584 186.726 30.9583 186.027 31.1253Z" stroke="#F2F2F2" stroke-width="2"/>
+<path d="M141.775 11.7622L153.189 27.0006C154.154 28.2889 156.168 27.9676 156.684 26.443L163.31 6.86972C163.441 6.48491 163.244 6.06587 162.865 5.92009C157.096 3.70263 150.609 4.44037 145.485 7.89637L142.035 10.2239C141.525 10.5682 141.406 11.2695 141.775 11.7622Z" stroke="#F2F2F2" stroke-width="2"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="216" height="216" fill="white"/>
+</clipPath>
+<clipPath id="clip1">
+<rect width="74" height="50" fill="white" transform="translate(163.845 -16) rotate(50.9784)"/>
+</clipPath>
+</defs>
+</svg>
