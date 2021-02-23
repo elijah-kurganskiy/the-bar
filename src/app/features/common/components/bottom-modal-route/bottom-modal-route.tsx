@@ -13,7 +13,7 @@ export class BottomModalRoute extends React.PureComponent<BottomModalRouteProps>
     this.renderRoute = this.renderRoute.bind(this);
   }
 
-  private renderRoute = ({ match }: { match: any }) => {
+  private renderRoute = ({ match }: { match: null }) => {
     return (
       <CSSTransition
         in={match !== null}
@@ -28,8 +28,8 @@ export class BottomModalRoute extends React.PureComponent<BottomModalRouteProps>
     );
   };
 
-  render() {
-    const { children, render, ...rest } = this.props;
+  public render(): React.ReactNode {
+    const { ...rest } = this.props;
     return <Route {...rest}>{this.renderRoute}</Route>;
   }
 }
