@@ -13,6 +13,19 @@ import { ReactComponent as EggYolkIcon } from "../../../../../assets/icons/ingre
 import { ReactComponent as IceCreamIcon } from "../../../../../assets/icons/ingredients/icon-ingredient-ice-cream.svg";
 import { ReactComponent as CoconutMilkIcon } from "../../../../../assets/icons/ingredients/icon-ingredient-coconut-milk.svg";
 import { ReactComponent as CucumberIcon } from "../../../../../assets/icons/ingredients/icon-ingredient-cucumber.svg";
+import { ReactComponent as MintIcon } from "../../../../../assets/icons/ingredients/icon-ingredient-mint.svg";
+import { ReactComponent as GinIcon } from "../../../../../assets/icons/ingredients/icon-ingredient-gin.svg";
+import { ReactComponent as WhiteRumIcon } from "../../../../../assets/icons/ingredients/icon-ingredient-white-rum.svg";
+import { ReactComponent as MartiniIcon } from "../../../../../assets/icons/ingredients/icon-ingredient-martini.svg";
+import { ReactComponent as MartiniFieroIcon } from "../../../../../assets/icons/ingredients/icon-ingredient-martini-fiero.svg";
+import { ReactComponent as WhiteWineIcon } from "../../../../../assets/icons/ingredients/icon-ingredient-white-wine.svg";
+import { ReactComponent as SpriteIcon } from "../../../../../assets/icons/ingredients/icon-ingredient-sprite.svg";
+import { ReactComponent as CocaColaIcon } from "../../../../../assets/icons/ingredients/icon-ingredient-coca-cola.svg";
+import { ReactComponent as GrenadineIcon } from "../../../../../assets/icons/ingredients/icon-ingredient-grenadine.svg";
+import { ReactComponent as TonicIcon } from "../../../../../assets/icons/ingredients/icon-ingredient-tonic.svg";
+import { ReactComponent as MilkIcon } from "../../../../../assets/icons/ingredients/icon-ingredient-milk.svg";
+import { ReactComponent as CreamIcon } from "../../../../../assets/icons/ingredients/icon-ingredient-milk.svg";
+import { ReactComponent as IceIcon } from "../../../../../assets/icons/ingredients/icon-ingredient-ice.svg";
 import { Ingredient, IngredientEnum } from "../../../models/ingredient";
 import "./ingredient-item.scss";
 
@@ -43,31 +56,31 @@ function getIconByIngredient(id: IngredientEnum): React.FunctionComponent {
     case IngredientEnum.CUCUMBER:
       return CucumberIcon;
     case IngredientEnum.MINT:
-      break;
+      return MintIcon;
     case IngredientEnum.GIN:
-      break;
+      return GinIcon;
     case IngredientEnum.WHITE_RUM:
-      break;
+      return WhiteRumIcon;
     case IngredientEnum.MARTINI:
-      break;
+      return MartiniIcon;
     case IngredientEnum.MARTINI_FIERO:
-      break;
+      return MartiniFieroIcon;
     case IngredientEnum.WHITE_WINE:
-      break;
+      return WhiteWineIcon;
     case IngredientEnum.SPRITE:
-      break;
+      return SpriteIcon;
     case IngredientEnum.COCA_COLA:
-      break;
+      return CocaColaIcon;
     case IngredientEnum.GRENADINE:
-      break;
+      return GrenadineIcon;
     case IngredientEnum.TONIC:
-      break;
+      return TonicIcon;
     case IngredientEnum.MILK:
-      break;
+      return MilkIcon;
     case IngredientEnum.CREAM:
-      break;
+      return CreamIcon;
     case IngredientEnum.ICE:
-      break;
+      return IceIcon;
     case IngredientEnum.EGG_WHITE:
       return EggWhiteIcon;
     case IngredientEnum.WHISKEY:
