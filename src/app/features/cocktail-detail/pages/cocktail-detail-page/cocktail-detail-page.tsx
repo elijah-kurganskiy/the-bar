@@ -19,8 +19,14 @@ function CocktailDetailPage() {
     return null;
   }
   return (
-    <div className="cocktail-detail-page fancy">
+    <dialog
+      role="dialog"
+      open
+      aria-modal={true}
+      className="cocktail-detail-page fancy"
+    >
       <HeaderWithNavigationComponent
+        className="cocktail-detail-page_navigation"
         onClose={navigateBack}
         title={cocktail.name}
       />
@@ -29,7 +35,7 @@ function CocktailDetailPage() {
         type={cocktail.id}
       />
       <IngredientListComponent ingredients={cocktail.ingredients} />
-    </div>
+    </dialog>
   );
 }
 

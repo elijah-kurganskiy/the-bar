@@ -1,8 +1,8 @@
 .header-with-navigation {
   display: flex;
   flex-direction: row;
-  margin: 4.4em;
   padding: 0 3em;
+  align-items: center;
   justify-content: space-between;
 
   .header-with-navigation_texts {
@@ -18,12 +18,11 @@
   }
 
   .header-with-navigation_action-block {
-    width: 1em;
+    width: 2em;
   }
 
   .header-with-navigation_close {
     cursor: pointer;
-    padding: 1em 2em;
     background: none;
     color: var(--color-base-weak);
   }

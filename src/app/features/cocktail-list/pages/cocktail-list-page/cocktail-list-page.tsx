@@ -1,9 +1,8 @@
 import React, { useCallback } from "react";
-import { useHistory } from "react-router-dom";
+import { useHistory, useLocation } from "react-router-dom";
 import { cocktails } from "../../../../store/cocktails";
 import { CocktailListComponent } from "../../components/cocktail-list/cocktail-list";
 import "./cocktail-list-page.scss";
-
 function CocktailListPage() {
   const history = useHistory();
 
