@@ -27,7 +27,7 @@ export const cocktails: Cocktail[] = [
   },
   {
     id: CocktailEnum.CUBE_LIBRE,
-    name: "Kuba Libre",
+    name: "Cuba Libre",
     timeToMake: 3,
     ingredients: [
       {
