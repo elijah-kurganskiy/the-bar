@@ -1,3 +1,9 @@
 .cocktail-list-page {
   height: 100%;
+  position: relative;
+
+  .cocktail-list-page_header {
+    position: sticky;
+    top: 0;
+  }
 }

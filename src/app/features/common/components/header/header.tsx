@@ -1,9 +1,14 @@
 import React from "react";
 import "./header.scss";
+import cn from "classnames";
 
-function Header() {
+export interface HeaderProps {
+  className?: string;
+}
+
+function Header(props: HeaderProps) {
   return (
-    <header className="header back">
+    <header className={cn("header back", props.className)}>
       <h1 className="header-title text">The Bar’s Menu</h1>
     </header>
   );
