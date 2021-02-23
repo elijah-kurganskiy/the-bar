@@ -63,7 +63,7 @@ export const cocktails: Cocktail[] = [
   },
   {
     id: CocktailEnum.MOJITO_AF,
-    name: "Mojito",
+    name: "Mojito N/A",
     timeToMake: 3,
     ingredients: [
       {
@@ -140,7 +140,7 @@ export const cocktails: Cocktail[] = [
   },
   {
     id: CocktailEnum.PINA_COLADA_AF,
-    name: "Pina Colada",
+    name: "Pina Colada N/A",
     timeToMake: 3,
     ingredients: [
       {
@@ -225,7 +225,7 @@ export const cocktails: Cocktail[] = [
   },
   {
     id: CocktailEnum.SEX_ON_THE_BEACH_AF,
-    name: "Sex On The Beach",
+    name: "Sex On The Beach N/A",
     timeToMake: 3,
     ingredients: [
       {
@@ -288,7 +288,7 @@ export const cocktails: Cocktail[] = [
   },
   {
     id: CocktailEnum.PUSSYFRUIT,
-    name: "Pussyfruit",
+    name: "Pussyfruit N/A",
     timeToMake: 3,
     ingredients: [
       {
@@ -331,7 +331,7 @@ export const cocktails: Cocktail[] = [
   },
   {
     id: CocktailEnum.LEOS_COCKTAIL,
-    name: "Leo's cocktail",
+    name: "Leo's",
     timeToMake: 3,
     ingredients: [
       {
@@ -349,7 +349,7 @@ export const cocktails: Cocktail[] = [
     ],
     withAlcohol: true,
   },
-];
+].sort((a, b) => a.name.localeCompare(b.name));
 
 export function getCocktailById(id: number): Cocktail | undefined {
   return cocktails.find((item) => item.id === id);
