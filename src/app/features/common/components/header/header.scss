@@ -1,0 +1,10 @@
+.header {
+  background: var(--color-base-strong);
+  padding: 1.4em 3.2em;
+
+  .header-title {
+    margin: 0;
+    font-size: 2rem;
+    color: var(--color-base-weak);
+  }
+}

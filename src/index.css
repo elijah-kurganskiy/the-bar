@@ -1,13 +1,89 @@
+@import-normalize;
+
+@font-face {
+  font-family: "Noto Sans";
+  src: url("./assets/fonts/NotoSans-Regular.ttf") format("truetype-variations");
+}
+
+#root {
+  height: 100%;
+}
+
 body {
+  height: 100%;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Noto Sans", serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: var(--color-base-strong);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  font-size: 10px;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+:root {
+  --color-base-strong: #0e131a;
+  --color-base-weak: #e0e0e0;
+
+  --color-faint-strong: #262a34;
+  --color-faint-weak: #b7b7b7;
+
+  --color-accent-strong: #0094c3;
+
+  --color-compliment-strong: #30804d;
+}
+
+.back {
+  --color-base-strong: #0e131a;
+  --color-base-weak: #e0e0e0;
+
+  --color-faint-strong: #262a34;
+  --color-faint-weak: #b7b7b7;
+
+  --color-accent-strong: #0094c3;
+
+  --color-compliment-strong: #30804d;
+}
+
+.text {
+  --color-base-strong: #0e131a;
+  --color-base-weak: #e0e0e0;
+
+  --color-faint-strong: #262a34;
+  --color-faint-weak: #b7b7b7;
+  --color-accent-strong: #0c7091;
+
+  --color-compliment-strong: #30804d;
+}
+
+.fancy {
+  --color-base-strong: #0e131a;
+  --color-base-weak: #e0e0e0;
+
+  --color-faint-strong: linear-gradient(180deg, #191f28 0.22%, #231928 99.81%);
+
+  --color-faint-weak: #b7b7b7;
+
+  --color-accent-strong: #0094c3;
+
+  --color-compliment-strong: #30804d;
+}
+
+/*RESET DEFAULT STYLES*/
+
+button {
+  font-family: inherit;
+  border: 0;
+  padding: 0;
 }

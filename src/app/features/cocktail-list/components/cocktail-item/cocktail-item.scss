@@ -1,0 +1,15 @@
+.cocktail-item {
+  background: var(--color-faint-strong);
+  padding: 1.5em 2em;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  border-radius: 1.2em;
+
+  .cocktail-item_title {
+    color: var(--color-base-weak);
+    font-size: 1.6rem;
+    line-height: 1.43;
+  }
+}

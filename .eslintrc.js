@@ -22,6 +22,6 @@ module.exports = {
   ],
 
   rules: {
-    // e.g. "@typescript-eslint/explicit-function-return-type": "off",
+    "css.lint.unknownAtRules": 0,
   },
 };

@@ -1,0 +1,10 @@
+.cocktail-list {
+  margin: 0;
+  padding: 2.3em 1.6em 1em;
+  background: var(--color-faint-strong);
+
+  .cocktail-list_item {
+    list-style: none;
+    margin-bottom: 1.4em;
+  }
+}
