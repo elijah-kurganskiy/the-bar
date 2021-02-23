@@ -1,8 +1,16 @@
 @import-normalize;
 
 @font-face {
-  font-family: "Noto Sans";
-  src: url("./assets/fonts/NotoSans-Regular.ttf") format("truetype-variations");
+  font-family: "Montserrat";
+  font-weight: 400;
+  src: url("./assets/fonts/Montserrat-Regular.ttf")
+    format("truetype-variations");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 500;
+  src: url("./assets/fonts/Montserrat-Medium.ttf") format("truetype-variations");
 }
 
 #root {
@@ -12,7 +20,8 @@
 body {
   height: 100%;
   margin: 0;
-  font-family: "Noto Sans", serif;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: var(--color-base-strong);
