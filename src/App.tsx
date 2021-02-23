@@ -1,8 +1,9 @@
 import React from "react";
+import { BrowserRouter } from "react-router-dom";
 import "./App.scss";
-import { BrowserRouter, Route } from "react-router-dom";
-import { CocktailDetailPageComponent } from "./app/features/cocktail-detail/pages/cocktail-detail-page";
+import { CocktailDetailPageComponent } from "./app/features/cocktail-detail/pages/cocktail-detail-page/cocktail-detail-page";
 import { CocktailListPageComponent } from "./app/features/cocktail-list/pages/cocktail-list-page/cocktail-list-page";
+import { BottomModalRoute } from "./app/features/common/components/bottom-modal-route/bottom-modal-route";
 import { HeaderComponent } from "./app/features/common/components/header/header";
 
 function App() {
@@ -12,10 +13,9 @@ function App() {
       <main className="main">
         <BrowserRouter>
           <CocktailListPageComponent />
-          <Route
-            path="/cocktails/:id"
-            component={CocktailDetailPageComponent}
-          />
+          <BottomModalRoute exact path="/cocktails/:id">
+            <CocktailDetailPageComponent />
+          </BottomModalRoute>
         </BrowserRouter>
       </main>
     </div>
