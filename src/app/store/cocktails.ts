@@ -287,7 +287,7 @@ export const cocktails: Cocktail[] = [
     withAlcohol: true,
   },
   {
-    id: CocktailEnum.PUSSI_FRUIT,
+    id: CocktailEnum.PUSSYFRUIT,
     name: "Pussi fruit",
     timeToMake: 3,
     ingredients: [

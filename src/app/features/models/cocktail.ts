@@ -15,7 +15,7 @@ export enum CocktailEnum {
   SEX_ON_THE_BEACH_AF,
   GIN_TONIC,
   MILKY_ALAN,
-  PUSSI_FRUIT,
+  PUSSYFRUIT,
   CUCUMBER,
   LEOS_COCKTAIL,
 }
