@@ -1,5 +1,6 @@
 import React from "react";
 import "./header-with-navigation.scss";
+import { ReactComponent as CloseIcon } from "../../../../../assets/icons/common/icon-close.svg";
 
 export interface HeaderWithNavigationProps {
   title: string;
@@ -10,10 +11,21 @@ export interface HeaderWithNavigationProps {
 function HeaderWithNavigation(props: HeaderWithNavigationProps) {
   return (
     <div className="header-with-navigation back">
-      <h2 className="header-with-navigation_title text">{props.title}</h2>
-      <button onClick={props.onClose} className="header-with-navigation_close">
-        Close
-      </button>
+      <div className="header-with-navigation_action-block" />
+      <div className="header-with-navigation_texts">
+        <h2 className="header-with-navigation_title text">{props.title}</h2>
+        <span className="header-with-navigation_title text">
+          {props.description}
+        </span>
+      </div>
+      <div className="header-with-navigation_action-block">
+        <button
+          onClick={props.onClose}
+          className="header-with-navigation_close"
+        >
+          <CloseIcon />
+        </button>
+      </div>
     </div>
   );
 }

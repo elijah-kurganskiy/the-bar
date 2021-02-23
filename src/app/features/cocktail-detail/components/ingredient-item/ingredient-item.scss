@@ -2,11 +2,14 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  padding: 0.6em 0.8em 0.5em;
 
-  border-bottom: 1px solid var(--color-base-weak);
+  border-top: 1px solid var(--color-base-weak);
 
   .ingredient-item_icon {
-    margin-right: 2em;
+    margin-right: 2.4em;
+    width: 5em;
+    height: 5em;
   }
 
   .ingredient-item_title {
