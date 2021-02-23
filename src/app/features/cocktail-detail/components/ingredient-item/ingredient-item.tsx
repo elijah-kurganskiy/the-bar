@@ -96,14 +96,60 @@ function getIconByIngredient(id: IngredientEnum): React.FunctionComponent {
 
 function getNameByIngredient(id: IngredientEnum) {
   switch (id) {
+    case IngredientEnum.PINEAPPLE_JUICE:
+      return "Pineapple Juice";
+    case IngredientEnum.ORANGE_JUICE:
+      return "Orange Juice";
+    case IngredientEnum.LIME_JUICE:
+      return "Lime Juice";
+    case IngredientEnum.LIME:
+      return "Lime";
+    case IngredientEnum.CRANBERRY_JUICE:
+      return "Crunberry Juice";
+    case IngredientEnum.PEACH_JUICE:
+      return "Peach Juice";
+    case IngredientEnum.EGG_YOLK:
+      return "Egg Yolk";
+    case IngredientEnum.ICE_CREAM:
+      return "Ice Cream";
+    case IngredientEnum.COCONUT_MILK:
+      return "Coconut Milk";
+    case IngredientEnum.CUCUMBER:
+      return "Cucumber";
+    case IngredientEnum.MINT:
+      return "Mint";
+    case IngredientEnum.GIN:
+      return "Gin";
+    case IngredientEnum.WHITE_RUM:
+      return "White Rum";
+    case IngredientEnum.MARTINI:
+      return "Martini";
+    case IngredientEnum.MARTINI_FIERO:
+      return "Martini Fiero";
+    case IngredientEnum.WHITE_WINE:
+      return "White Wine";
+    case IngredientEnum.SPRITE:
+      return "Sprite";
+    case IngredientEnum.COCA_COLA:
+      return "Coca-Cola";
+    case IngredientEnum.GRENADINE:
+      return "Grenadite";
+    case IngredientEnum.TONIC:
+      return "Tonic";
+    case IngredientEnum.MILK:
+      return "Milk";
+    case IngredientEnum.CREAM:
+      return "Cream";
+    case IngredientEnum.ICE:
+      return "Ice";
     case IngredientEnum.EGG_WHITE:
-      return "Яичный белок";
+      return "Egg White";
     case IngredientEnum.WHISKEY:
-      return "Виски";
+      return "Whiskey";
     case IngredientEnum.LEMON_JUICE:
-      return "Лимонный сок";
+      return "Lemon Juice";
     case IngredientEnum.SUGAR_SYRUP:
-      return "Сахарный сироп";
+      return "Sugar Syrup";
   }
 }
 
