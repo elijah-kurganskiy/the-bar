@@ -1,9 +1,18 @@
 .cocktail-list-page {
   height: 100%;
   position: relative;
+  padding-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
 
   .cocktail-list-page_header {
-    position: sticky;
     top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+  }
+
+  .cocktail-list-page_list {
   }
 }

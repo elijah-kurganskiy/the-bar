@@ -78,7 +78,7 @@ code {
 
 .line {
   --color-base-strong: #0e131a;
-  --color-base-weak: rgba(255, 255, 255, 0.1);
+  --color-base-weak: rgba(255, 255, 255, 0.05);
 
   --color-faint-strong: #262a34;
   --color-faint-weak: #b7b7b7;

@@ -1,7 +1,7 @@
 .header-with-navigation {
   display: flex;
   flex-direction: row;
-  padding: 0 3em;
+  padding: 0 3.2em;
   align-items: center;
   justify-content: space-between;
 
@@ -13,17 +13,26 @@
 
   .header-with-navigation_title {
     font-size: 1.8rem;
+    padding-bottom: 1px;
+    line-height: 1;
     font-weight: 500;
     color: var(--color-base-weak);
   }
 
   .header-with-navigation_action-block {
-    width: 2em;
+    width: 3.2em;
   }
 
   .header-with-navigation_close {
+    font-size: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3.2em;
+    height: 3.2em;
     cursor: pointer;
     background: none;
+    padding: 0.2em;
     color: var(--color-base-weak);
   }
 }
